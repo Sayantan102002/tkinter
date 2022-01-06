@@ -1,0 +1,12 @@
+from tkinter import *
+root=Tk()
+root.geometry("655x333")
+f1=Frame(root,bg="grey",borderwidth=3,relief=SUNKEN)
+f1.pack(side=LEFT,fill=Y)
+f2=Frame(root,borderwidth=6,bg="grey",relief=SUNKEN)
+f2.pack(side="top",fill=X)
+l=Label(f1,text="Sayantan")
+l.pack(pady=142)
+l1=Label(f2,text="Notepad",font="Helvetica 19 bold",fg="deep sky blue")
+l1.pack()
+root.mainloop()
